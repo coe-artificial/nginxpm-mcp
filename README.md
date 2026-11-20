@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-%23007ACC?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-22+-%23339933?style=flat-square&logo=node.js)](https://nodejs.org/)
 [![MCP SDK](https://img.shields.io/badge/MCP-%40modelcontextprotocol%2Fsdk%401.12.1-brightgreen?style=flat-square)](https://modelcontextprotocol.io/)
-[![npm](https://img.shields.io/badge/npm-packages-19-blue?style=flat-square)](#available-tools)
+[![Tools](https://img.shields.io/badge/tools-19-blue?style=flat-square)](#available-tools)
 
 > **Manage your Nginx Proxy Manager fleet from any MCP-host AI chat.** Create proxy hosts, rotate certificates, flip redirections — without ever opening the admin dashboard.
 
@@ -29,6 +29,13 @@
 ```
 
 Each config entry spawns an isolated `NpmClient` with its own JWT token cache and retry logic.
+
+---
+
+## Related
+
+- [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) — the upstream project
+- [Model Context Protocol](https://modelcontextprotocol.io/) — the MCP specification
 
 ---
 
